@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+
+body {
+  background-image: url("../images/image.jpg");
+  background-color: #82f1e3;
+  color: #000;
+  margin: 20px;
+  font-family: "Work Sans", sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_header {
+  display: flex;
+  align-self: center;
+  border: 1px solid gray;
+  box-shadow: 10px 10px 10px black;
+  background-color: rgb(136, 120, 113);
+}
+
+.header_title {
+  color: lightcoral;
+  font-family: "Kenia", cursive;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 3px black;
+}
+
+.header_title:hover {
+  transform: scale(1.01);
+  color: rgb(224, 18, 18);
+}
+
+.nav_title ul {
+  margin-top: 30px;
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  float: right;
+}
+
+.nav_title ul li a {
+  text-decoration: none;
+  font-size: medium;
+  font-size: 15px;
+}
+
+.nav_title__li {
+  color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.nav_title ul li a:hover {
+  color: rgb(224, 18, 18);
+}
+
+.image_section__img {
+  margin: 50px 0px 0px 50px;
+  border-radius: 80%;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px black;
+  margin-left: 180px;
+}
+
+.image_section__img:hover {
+  transition: 2.5s;
+  transform: scale(1.02);
+  transform: rotate(360deg);
+}
+
+.content-container {
+  display: flex;
+}
+
+.content {
+  margin: 60px 0px 0px 150px;
+  width: 500px;
+}
+
+.content-text {
+  font-family: "La Belle Aurore", cursive;
+}
+
+strong {
+  font-family: "Unbounded", cursive;
+}
+
+strong:hover {
+  transform: scale(1.01);
+  color: #fff;
+  text-shadow: 5px 5px 5px black;
+}
+
+.button {
+  padding: 20px 20px;
+  margin-left: 350px;
+  margin-top: 50px;
+  font-size: 18px;
+  background-color: lightseagreen;
+  color: #000;
+  border-radius: 9px;
+  border-style: none;
+}
+.button a {
+  list-style: none;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+.button_link {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    background-image: url("../images/image.jpg");
+    background-color: #82f1e3;
+    color: #000;
+    margin: 20px;
+    font-family: "Work Sans", sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header_title {
+    width: 100%;
+    display: block;
+    font-size: 2rem;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    font-weight: bold;
+  }
+  .image_section__img {
+    margin-left: 40px;
+  }
+  .button {
+    margin-left: 140px;
+  }
+}
