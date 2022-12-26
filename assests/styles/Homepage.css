@@ -90,8 +90,35 @@ body {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   color: transparent;
 }
+
+.high-school {
+  padding: 11px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  color: transparent;
+}
+
+.graduation {
+  padding: 11px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  color: transparent;
+}
 .toggle {
   color: black;
+}
+.footer {
+  width: 100vw;
+  height: 3vh;
+  border: 1px solid black;
+  background-color: black;
+  color: #f1f1f1;
+  margin-top: 1vh;
+  padding-left: 35vw;
 }
 
 @media only screen and (max-width: 576px) {

@@ -3,6 +3,8 @@ const aboutmeEl = document.querySelector(".about-me");
 const skillsEl = document.querySelector(".skills");
 const experienceEl = document.querySelector(".experience");
 const schoolEl = document.querySelector(".schooling");
+const highSchoolEl = document.querySelector(".high-school");
+const graduationEl = document.querySelector(".graduation");
 
 const aboutMeChange = () => {
   aboutmeEl.classList.toggle("toggle");
@@ -18,4 +20,12 @@ const ExperienceChange = () => {
 
 const schoolChange = () => {
   schoolEl.classList.toggle("toggle");
+};
+
+const highSchoolChange = () => {
+  highSchoolEl.classList.toggle("toggle");
+};
+
+const graduationChange = () => {
+  graduationEl.classList.toggle("toggle");
 };
