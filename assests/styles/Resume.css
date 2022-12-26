@@ -1,0 +1,42 @@
+.resume-title {
+  background-color: #1098ad;
+  counter-reset: black;
+  padding-left: 40vw;
+}
+
+.resume-link {
+  margin-left: 40vw;
+  margin-top: -100vh;
+}
+
+.resume-link img {
+  width: 30vw;
+  height: 30vh;
+}
+
+.resume-link a {
+  padding: 10px 10px;
+  margin-left: 10px;
+  border: 1px solid black;
+  color: #f1f1f1;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  border-style: none;
+  text-decoration: none;
+  margin-top: 300px;
+}
+
+.resume-link a:hover {
+  background-color: green;
+  box-shadow: 4px 4px 4px gray;
+}
+
+.pdf-drive {
+  margin-left: 40vw;
+  margin-top: 10vh;
+}
+
+.pdf {
+  margin-top: 50px;
+  margin-bottom: -10px;
+}
