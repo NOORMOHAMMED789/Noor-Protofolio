@@ -5,6 +5,7 @@ const experienceEl = document.querySelector(".experience");
 const schoolEl = document.querySelector(".schooling");
 const highSchoolEl = document.querySelector(".high-school");
 const graduationEl = document.querySelector(".graduation");
+const aboutmeEl1 = document.querySelector(".aboutMe");
 
 const aboutMeChange = () => {
   aboutmeEl.classList.toggle("toggle");
@@ -28,4 +29,8 @@ const highSchoolChange = () => {
 
 const graduationChange = () => {
   graduationEl.classList.toggle("toggle");
+};
+
+const aboutmeChange = () => {
+  aboutmeEl1.classList.toggle("toggle");
 };

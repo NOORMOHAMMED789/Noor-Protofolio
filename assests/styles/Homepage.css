@@ -36,7 +36,8 @@ body {
 .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  justify-content: space-evenly;
+  gap: 60px;
 }
 
 .aboutme-btn {
@@ -108,17 +109,29 @@ body {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   color: transparent;
 }
+
+.aboutMe {
+  padding: 11px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  color: transparent;
+}
 .toggle {
   color: black;
 }
 .footer {
   width: 100vw;
-  height: 3vh;
+  height: 6vh;
   border: 1px solid black;
   background-color: black;
   color: #f1f1f1;
   margin-top: 1vh;
-  padding-left: 35vw;
+  padding-left: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 576px) {
@@ -151,5 +164,10 @@ body {
   .utility-sec {
     width: 80%;
     height: 100%;
+  }
+
+  .footer {
+    padding-left: 2vw;
+    width: 100vw;
   }
 }
